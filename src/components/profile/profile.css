@@ -1,0 +1,180 @@
+.bold{
+  font-size: x-large;
+  font-weight: 800;
+}
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.profile-top{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1120px;
+  justify-content: center;
+}
+
+.profile-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+  margin-right: 30px;
+}
+
+.profile-image-wrapper{
+padding: 10px 40px;
+}
+
+.profile-intro{
+  width: 320px;
+  margin-bottom: 12px;
+}
+
+.profile-username{
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.profile-analytics{
+ display: flex;
+ justify-content: space-between; 
+ width: 100%;
+ margin-bottom: 20px;
+}
+
+.count-wrapper {
+  cursor: pointer;
+}
+.count-wrapper .count{
+  font-weight: 550;
+}
+
+
+.profile-name{
+  margin-bottom: 5px;
+}
+
+.profile-part{
+  max-width: 1120px;
+  height: 1px;
+  width: 100%;
+  background-color: #e2e2e2;
+  margin-top: 40px;
+}
+
+
+.profile-bottom{
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 420px; 
+}
+
+.profile-tag {
+  font-size: 14px;
+  font-weight: 600;
+  color: #727272;
+  cursor:pointer;
+}
+
+.active-tag{
+  color: #000;
+  border-top: 1px solid  #727272;
+}
+
+
+.post-card-wrapper{
+  margin-top: 10px;  
+  width: 100%;
+  max-width: 420px;
+
+}
+
+.post-card{
+  cursor: pointer;
+  width: 33.3%;
+  display: inline-block;
+  padding: 6px;
+}
+
+
+
+.openModal-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+.post-card img{
+  opacity: 1;
+  transition: opacity 0.5s;
+  width: 100%;
+}
+
+
+
+.post-card img:hover{
+  opacity: 0.8;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255,0.8);
+  color: #727272;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal-card{
+
+  width: 420px;
+  background-color: #ECF3FF;
+  min-height: 100px;
+  border: 1px solid #e2e2e2;
+  padding: 0;
+  margin: 0;
+  border-radius: 9px;
+  position: relative;
+}
+
+.close-modal{
+  position: absolute;
+  right: -18px;
+  top: -18px;
+  cursor: pointer;
+}
+
+.tagged{
+  margin: 50px;;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+p.copyright {
+  margin-top:10px;
+  color: #727272;
+  line-height: 40px;
+  font-size: 0.8em;
+}

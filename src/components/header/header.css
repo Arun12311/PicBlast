@@ -1,0 +1,159 @@
+a{
+    color: #000000;
+    outline: none;
+    text-decoration-line: none;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+a:hover{
+    opacity: 0.8;
+    color: #867676;
+}
+
+.header-wrapper{
+    background-color: #fff;
+    border-right: 1px solid #e2e2e2;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    max-width: 244px;
+    max-height: 100%;
+}
+
+
+.header-container{
+    display: grid;
+    grid-gap: 35px; 
+    margin: 40px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    flex-wrap: nowrap; 
+    margin: 40px 30px;
+    margin-left:25px ;
+}
+
+header .logo{
+    margin: 20px 50px;
+    width: 100px;
+}
+
+header .logo img{
+    width: 100%;
+}
+
+.icon-margin{
+    flex-direction: column;
+    justify-content: flex-start; 
+    flex-wrap: now;
+    margin-right: 30px;
+}
+
+
+.size{
+    outline: none;
+    font-weight: 350;
+    font-size: larger; 
+}
+
+.bold{
+    font-weight: bolder;
+}
+.mobile-wrapper{
+    display: none;
+}
+
+@media (width <= 520px){
+   .header-wrapper{
+    display: none;
+    }
+    .mobile-wrapper{
+        display: inline;
+        padding: 0%;
+    }
+    .insta-container{
+        padding: 0%;
+    }
+
+} 
+
+
+
+/* header{
+    
+}
+
+header .header-container{
+    max-width: 1120px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    width: 100px;
+}
+
+header .logo img{
+    width: 100%;
+}
+
+a{
+    color: #727272;
+    outline: none;
+}
+
+a :hover{
+    color: black;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav a{
+margin-right: 10px;
+}
+
+.search-bar input{
+    background-color: #efefef;
+    outline: none;
+    border: 0;
+    font-size: 13px;
+    padding: 10px;
+    width: 250PX;
+    border-radius: 8px;
+}
+
+.search{
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.search-icon-nav{
+    display: none;
+    margin-right: 10px;
+    color: #727272;
+}
+
+@media (width < 520px){
+    .search{
+        display: none;
+    }
+
+    .search-icon-nav{
+        display: inline-block;
+    }
+} */
+
